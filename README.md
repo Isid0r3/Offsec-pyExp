@@ -33,5 +33,6 @@ Flag Retrieval: Read the local.txt and proof.txt files after privilege escalatio
 cat local.txt
 cat /root/proof.txt
 ```
+![offsec-pyExp](https://github.com/Isid0r3/Offsec-pyExp/assets/120736091/bcdb484c-c3d6-4a53-8827-6033e084aa6d)
 
 Credits : Isid0r3 & Jedidia
