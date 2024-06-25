@@ -1,6 +1,7 @@
 # Offsec-pyExp
 
 Specific Steps for pyExp
+
 Reconnaissance: Scan to identify running services, particularly MySQL (tcp/3306) and SSH (tcp/1337).
 
 Brute Force MySQL: Use Hydra to brute force MySQL access using the wordlist /usr/share/wordlist/rockyou.txt.
