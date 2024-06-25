@@ -9,7 +9,7 @@ Brute Force MySQL: Use Hydra to brute force MySQL access using the wordlist /usr
 ```bash
 hydra -l root -P /usr/share/wordlist/rockyou.txt mysql://<IP_ADDRESS>:3306
 ```
-Database Access: Extract the encrypted SSH credentials via the symmetric Fernet algorithm from the MySQL table.
+Database Access: Extract the encrypted SSH credentials via the symmetric Fernet algorithm from the `data` table.
 
 SSH Connection: Decrypt the credentials and connect via SSH on tcp/1337.
 
