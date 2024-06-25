@@ -1,5 +1,9 @@
 # Offsec-pyExp
 
+```
+Usage : python3 resolv-pyExp.py -i 192.168.182.118 -p 3306 -w /usr/share/wordlists/rockyou.txt
+```
+
 Specific Steps for pyExp
 
 Reconnaissance: Scan to identify running services, particularly MySQL (tcp/3306) and SSH (tcp/1337).
