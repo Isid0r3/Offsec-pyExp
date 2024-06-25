@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 
+# credits to Isid0r3 and Jedidia
+# linkedIn: https://www.linkedin.com/in/isid0r3
+# linkedIn: https://linkedin.com/in/jedidia-d-bahena-0814161b7
+
 import sys
 import getopt
 import os
@@ -12,7 +16,7 @@ import time
 import select
 import animation
 
-login =''
+
 def main(argv):
     try:
         opts, args = getopt.getopt(argv, 'i:p:w:', ['address_ip=', 'port=', 'wordlist='])
