@@ -2,7 +2,6 @@
 
 ```
 Usage : python3 resolv-pyExp.py -i <IP_ADDRESS> -p 3306 -w <WORDLIST>
-
 ```
 
 Specific Steps for pyExp
