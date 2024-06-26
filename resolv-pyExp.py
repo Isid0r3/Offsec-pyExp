@@ -150,7 +150,8 @@ def ssh_login(user_ssh, ssh_pwd, ip):
         output = ""
         while channel.recv_ready():
             output += channel.recv(1024).decode()
-
+            
+        # Extract the line containing the flag
         lines = output.splitlines()
         for line in lines:
             if "local.txt" in line:
@@ -179,7 +180,7 @@ def ssh_login(user_ssh, ssh_pwd, ip):
         while channel.recv_ready():
             output += channel.recv(65535).decode()
 
-        # Extract the line containing the key
+        # Extract the line containing the flag
         lines = output.splitlines()
         for line in lines:
             if "proof.txt" in line:
