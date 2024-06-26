@@ -53,11 +53,11 @@ def main(argv):
             ssh_login(user_ssh, ssh_pwd, ip)
 
         else:
-            print(f'usage: {sys.argv[0]} -i <address_ip> -p <port> -w <wordlist>'')
+            print(f'usage: {sys.argv[0]} -i <address_ip> -p <port> -w <wordlist>')
             sys.exit(2)
 
     except getopt.GetoptError:
-        print(f'usage: {sys.argv[0]} -i <address_ip> -p <port> -w <wordlist>'')
+        print(f'usage: {sys.argv[0]} -i <address_ip> -p <port> -w <wordlist>')
         sys.exit(2)
 
 @animation.simple_wait
