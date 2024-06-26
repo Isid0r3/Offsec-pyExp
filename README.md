@@ -37,4 +37,4 @@ cat /root/proof.txt
 ![offsec-pyExp1](https://github.com/Isid0r3/Offsec-pyExp/assets/120736091/14d169b5-e627-49d8-9c90-15a7ccd9bd16)
 
 
-Credits : Isid0r3 & Jedidia
+Credits : [Isid0r3](https://www.linkedin.com/in/isid0r3) & [Jedidia](https://linkedin.com/in/jedidia-d-bahena-0814161b7)
